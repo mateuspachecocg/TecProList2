@@ -1,5 +1,4 @@
 package solutions;
-import solutions.Question04;
 public class Question05 {
 
 	public static void main(String[] args) {
@@ -11,6 +10,7 @@ public class Question05 {
 		int i = 0;
 		
 		System.out.print("{");
+		// to correctly print the parentheses at the end
 		int k = n%m;
 		for (i = 0;i < n-k ; i += m) {
 			System.out.printf("%d,", i);
